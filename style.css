@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+  font-size: normal;
+  font-size: 400;
+  font-weight: 700;
+}
+
+body {
+  background-color: #141414;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+canvas {
+  background-color: #0c0c0c;
+}
+
+aside {
+  display: flex;
+  width: 100vh;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.score-value {
+  font-weight: 800;
+  font-size: 3em;
+  display: block;
+  margin-top: -30px;
+  color: #36d348;
+}
+
+.menu {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.gameover {
+  text-transform: uppercase;
+  font-size: 5em;
+  color: white;
+}
+
+.results {
+  font-size: 1.6em;
+  color: rgb(90, 223, 99);
+}
+
+.btn-custom {
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-top: 50px;
+  background-color: rgb(81, 237, 81);
+}
+
+.btn-custom:hover {
+  background-color: rgb(12, 244, 12);
+  transform: translateY(-7px);
+  transition: all 0.8s ease;
+  box-shadow: #04ff21 0px 0px 30px;
+}
+
+.mapping {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mapping h1 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.mapping span {
+  font-size: 1.1em;
+  color: rgb(83, 218, 83);
+}
